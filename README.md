@@ -7,6 +7,8 @@
 ```
 $ docker compose up -d
 
+$ ./generate-traffic.sh
+
 Web browser: http://localhost:5601
 
 ```

@@ -39,10 +39,10 @@ services:
       - "4317:4317" # OTLP gRPC receiver
       - "4318:4318" 
   
-  petclinic:
-    image: spring-petclinic:v1
+  rolldice:
+    image: rolldice:v1
     build:
-      context: examples/spring-petclinic
+      context: examples/java
       dockerfile: Dockerfile
     ports:
       - "8080:8080" 
