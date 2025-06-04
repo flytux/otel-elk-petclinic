@@ -7,6 +7,6 @@
 ```
 $ docker compose up -d
 
-$ http://localhost:5601
+Web browser: http://localhost:5601
 
 ```
