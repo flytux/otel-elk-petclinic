@@ -7,8 +7,6 @@
 ```
 $ docker compose up -d
 
-$ ./generate-traffic.sh
-
 $ http://localhost:5601
 
 ```
